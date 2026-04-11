@@ -1234,13 +1234,12 @@
     }
 
     .project-media img,
-    .project-media video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    }
-
+.project-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
     .project-slide:hover .project-media img,
     .project-slide:hover .project-media video {
       transform: scale(1.05);
@@ -1923,7 +1922,7 @@
        <!-- Projeto 3 - Aureo Churros -->
 <div class="project-slide">
   <div class="project-media">
-    <img src="aureochurros.png" alt="Aureo Churros">
+    <img src="aureo" alt="Aureo Churros">
     <div class="media-overlay"></div>
 </div>
             <div class="project-content">
